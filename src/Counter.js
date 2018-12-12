@@ -2,7 +2,9 @@ import React from 'react'
 
 
 class Counter extends React.Component {
-    state = { number: 0 }
+    state = { number: this.props.startValue }
+    
+
     render() {
         return (
             <div>
@@ -21,6 +23,10 @@ class Counter extends React.Component {
             </div>
         )
     }
+}
+
+Counter.defaultProps={
+    startValue:3
 }
 
 export default Counter

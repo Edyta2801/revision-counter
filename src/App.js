@@ -6,7 +6,8 @@ import './App.css';
 const App = (props) => (
 
   <div>
-    <Counter/>
+    <Counter
+    startValue={3}/>
   </div>
 )
 
