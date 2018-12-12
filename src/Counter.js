@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 class Counter extends React.Component {
     state = { number: this.props.startValue }
-    
+
 
     render() {
         return (
@@ -26,8 +26,8 @@ class Counter extends React.Component {
     }
 }
 
-Counter.propTypes={
-    startValue:PropTypes.number.isRequired
+Counter.propTypes = {
+    startValue: PropTypes.number.isRequired
 }
 
 export default Counter
