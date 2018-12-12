@@ -1,12 +1,13 @@
 import React from 'react';
-
+import Counter from './Counter'
 import './App.css';
 
-const App =(props)=>{
-  return
+
+const App = (props) => (
+
   <div>
-    <App/>
+    <Counter/>
   </div>
-}
+)
 
 export default App;
