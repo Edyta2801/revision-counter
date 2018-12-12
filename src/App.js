@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom'
 import Counter from './Counter'
 import PassingProps from './PassingProps'
 import Navigation from './Navigation'
+import FetchUsers from './FetchUsers';
 
 const App = (props) => (
   <div>
@@ -17,6 +18,7 @@ const App = (props) => (
         } />
         {/* PassingProps component with no props */}
         <Route path='/passing-props' component={PassingProps} />
+      <FetchUsers/>
       </div>
     </Router>
   </div>
