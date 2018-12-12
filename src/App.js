@@ -6,6 +6,8 @@ import PassingProps from './PassingProps'
 import Navigation from './Navigation'
 import FetchUsers from './FetchUsers';
 import SyncUsers from './SyncUsers';
+import Add from './Add'
+
 
 const App = (props) => (
   <div>
@@ -21,6 +23,7 @@ const App = (props) => (
         <Route path='/passing-props' component={PassingProps} />
       <FetchUsers/>
       <SyncUsers/>
+      <Add/>
       </div>
     </Router>
   </div>
