@@ -1,14 +1,14 @@
 import React from 'react'
+import PassingPropsPrim from './PassingPropsPrim'
 
-class PassingProps extends React.Component{
-    render(){
-        return(
-            <div>
-                passingValue={this.props.passingValue}
-                passingFun={this.props.passingFun}
+const PassingProps = (props) => (
 
-            </div>
-        )
-    }
-}
+    <div>
+        <PassingPropsPrim
+            passingValue={props.passingValue}
+            passingFun={props.passingFun}
+        />
+    </div>
+)
+
 export default PassingProps
