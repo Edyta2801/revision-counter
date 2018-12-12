@@ -1,0 +1,15 @@
+import React from 'react'
+import PassingPropsPrim from '.PassingPropsPrim'
+
+
+class PassingPropsBis extends React.Component {
+
+    render() {
+        return (
+            <div>
+                <PassingPropsPrim/>
+            </div>)
+    }
+}
+
+export default PassingPropsBis
