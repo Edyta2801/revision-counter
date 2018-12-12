@@ -5,6 +5,7 @@ import Counter from './Counter'
 import PassingProps from './PassingProps'
 import Navigation from './Navigation'
 import FetchUsers from './FetchUsers';
+import SyncUsers from './SyncUsers';
 
 const App = (props) => (
   <div>
@@ -19,6 +20,7 @@ const App = (props) => (
         {/* PassingProps component with no props */}
         <Route path='/passing-props' component={PassingProps} />
       <FetchUsers/>
+      <SyncUsers/>
       </div>
     </Router>
   </div>
